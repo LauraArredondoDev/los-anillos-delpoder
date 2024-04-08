@@ -126,6 +126,17 @@ section {
         padding: 3px;
         border-radius: 3px;
     }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    ul a {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .section-3 {
