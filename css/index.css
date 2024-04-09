@@ -131,11 +131,12 @@ section {
         display: flex;
         flex-direction: row;
         list-style: none;
+        margin-top: 10px;
     }
 
     ul a {
         color: white;
-        text-decoration: none;
+        font-size: 20px;
     }
 }
 
