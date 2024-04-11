@@ -94,7 +94,7 @@ section {
         padding-bottom: 20px;
     }
 
-    div p:first-of-type {
+    #amazon {
         letter-spacing: 5px;
     }
     
@@ -137,6 +137,31 @@ section {
     ul a {
         color: white;
         font-size: 20px;
+    }
+
+    .free {
+        display: flex;
+        margin-top: 20px;
+
+    }
+
+    .free svg {
+        color: blue;
+        margin-right: 10px;
+    }
+
+    .free p {
+        font-weight: 400;
+    }
+
+    .btn-1 a {
+        text-decoration: none;
+    }
+
+    .btn-1 p {
+        color: #111111;
+        margin-bottom: 5px;
+
     }
 }
 
