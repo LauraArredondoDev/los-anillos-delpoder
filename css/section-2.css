@@ -3,4 +3,11 @@
     background-image: url("../img/section-3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    h1 {
+        color: white;
+        font-size: 33px;
+        padding-top: 40px;
+    }
 }
+
