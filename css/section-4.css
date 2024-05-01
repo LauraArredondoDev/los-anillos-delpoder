@@ -3,4 +3,27 @@
     background-image: url("../img/section-5.webp");
     background-repeat: no-repeat;
     background-size: cover;
+
+    #btns-section-4 {
+        display: flex;
+        gap: 5px;
+        padding-top: 40px;
+
+        button {
+            background-color: black;
+            border: solid 1px white;
+            padding: 18px 20px;
+            color: white;
+            border-radius: 25px;
+            font-size: 1em;
+
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+
+        }
+    }
 }
