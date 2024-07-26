@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
 }
 
@@ -17,5 +17,32 @@ svg {
     color: white;
 }
 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
 
+.flex-colum {
+    display: flex;
+    flex-direction: column;
+}
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-left-row {
+    justify-content: start;
+    align-items: start;
+}
+
+.top-left-colum {
+    justify-content: start;
+    align-items: start;
+}
+
+.flex-colum-space-between {
+    justify-content: space-between;
+    align-items: start;
+}

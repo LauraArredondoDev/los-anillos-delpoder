@@ -3,15 +3,10 @@
     background-image: url("../img/section-4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
     padding-top: 40px;
     padding-bottom: 40px;
 
     #btns-section-3 {
-        display: flex;
         gap: 5px;
 
         button {
