@@ -29,12 +29,71 @@
 
             img {
                 border-radius: 15px 15px 0 0 ;
+
             }
 
-            svg {
+            .card1{
                 position: absolute;
                 width: 60px;
                 height: 60px;
+                /* top: 1375px;
+                left: 150px; */
+            }
+
+            .card2{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: 1375px;
+                left: 480px;
+            }
+
+            .card3{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: 1375px;
+                left: 780px;
+            }
+
+            .card4{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: 1375px;
+                left: 1110px;
+            }
+
+            .card5{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: 1375px;
+                left: 1400px;
+            }
+
+            .card6{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: 1375px;
+                left: 2500px;
+            }
+
+            .card7{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                /* top: 1375px;
+                left: 150px; */
+            }
+
+            .card8{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                /* top: 1375px;
+                left: 150px; */
             }
         }
 
