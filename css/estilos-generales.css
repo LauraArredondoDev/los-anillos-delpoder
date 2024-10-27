@@ -10,8 +10,8 @@ body {
 }
 
 section {
-    padding-left: 40px;
-}
+    padding: 0 40px;
+} 
 
 svg {
     color: white;
@@ -45,4 +45,55 @@ svg {
 .flex-colum-space-between {
     justify-content: space-between;
     align-items: start;
+}
+
+.cards-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+    > div {
+        background-color: #36636a;
+        border-radius: 15px;
+        cursor: pointer;
+        
+        > div {
+            position: relative;
+
+            > img {
+                border-radius: 15px 15px 0 0;
+            }
+
+            > .btn-card {
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        }
+
+        > .txt {
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+
+            p {
+                font-size: 1.4em;
+            }
+        }
+    }
+
+
 }
