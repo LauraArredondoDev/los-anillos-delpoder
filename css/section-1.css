@@ -7,7 +7,7 @@
     
 
     p {
-        color: white;
+        color: var(--color-secundario);
         font-weight: bold;
         font-size: 1.2em;
         gap: 30px;
@@ -34,14 +34,14 @@
     }
 
     div:nth-of-type(2) span:first-of-type {
-        color: rgb(150, 150, 150);
+        color: var(--color-quinario);
         font-size: 1.4em;
         word-spacing: 8px;
     }
     
     .chip  {
-        color: white;
-        background-color: rgba(83, 80, 80, 0.79);
+        color: var(--color-secundario);
+        background-color: var(--color-terciario);
         padding: 3px;
         border-radius: 3px;
     }
@@ -52,11 +52,11 @@
         gap: 10px;
 
         li {
-            color: white;
+            color: var(--color-secundario);
 
             a {
                 font-size: 20px;
-                color: white;
+                color: var(--color-secundario);
             }
         }
 
@@ -68,7 +68,7 @@
     }
     
     .free svg {
-        color: blue;
+        color: var(--color-cuaternario);
     }
     
     .free p {
@@ -81,13 +81,13 @@
         
         a {
             text-decoration: none;
-            background-color: white;
+            background-color: var(--color-secundario);
             padding: 10px 15px;
             border-radius: 8px;
             margin-right: 30px;
             
             p {
-                color: #111111;
+                color: var(--color-principal);
             }
 
             p:first-of-type {
@@ -96,7 +96,7 @@
         }
         
         button {
-            background-color: rgba(92, 91, 91, 0.738);
+            background-color: var(--color-terciario);
             border: none;
             border-radius: 50%;
             width: 60px;
@@ -110,17 +110,17 @@
             transition: ease .3s;
             
             p {
-                color: rgb(70, 82, 49);
+                color: var(--color-principal);
             }
         }
 
         button:hover {
-            background-color: white;
+            background-color: var(--color-secundario);
             scale: 1.1;
             transition: ease .3s;
 
             svg {
-                color: black;
+                color: var(--color-principal);
             }
         }
 

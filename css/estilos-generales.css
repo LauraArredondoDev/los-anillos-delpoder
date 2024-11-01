@@ -14,7 +14,7 @@ section {
 } 
 
 svg {
-    color: white;
+    color: var(--color-secundario);
 }
 
 .flex-center {
@@ -58,7 +58,7 @@ svg {
     scrollbar-width: none;
 
     > div {
-        background-color: #36636a;
+        background-color: var(--bg-card);
         border-radius: 15px;
         cursor: pointer;
         
@@ -81,7 +81,7 @@ svg {
         }
 
         > .txt {
-            color: white;
+            color: var(--color-secundario);
             padding: 20px;
             display: flex;
             flex-direction: column;

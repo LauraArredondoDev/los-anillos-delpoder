@@ -10,7 +10,7 @@
     padding-bottom: 40px;
 
     h1 {
-        color: white;
+        color: var(--color-secundario);
         font-size: 33px;
         padding-top: 40px;
     }

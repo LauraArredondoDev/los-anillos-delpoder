@@ -94,5 +94,5 @@ Aquí es el pie de página o footer en el que está el logo de prime video y un 
 ![Footer](img-readme/footer.png)
 
 >[!NOTE]
-Aquí dejo el link a la página oficial.  
-[Página oficial de Prime Video de Los Anillos del Poder](https://https://www.primevideo.com/-/es/detail/El-Se%C3%B1or-de-los-Anillos-Los-anillos-de-poder/0TUVXIO58IUNEPNBF8363Z7YGL)
+>Aquí dejo el link a la página oficial.  
+>[Página oficial de Prime Video de Los Anillos del Poder](https://https://www.primevideo.com/)

@@ -9,32 +9,32 @@
         padding-top: 40px;
 
         button {
-            background-color: black;
-            border: solid 1px white;
+            background-color: var(--color-principal);
+            border: solid 1px var(--color-secundario);
             padding: 18px 20px;
-            color: white;
+            color: var(--color-secundario);
             border-radius: 25px;
             font-size: 1em;
 
         }
 
         button:hover {
-            background-color: white;
-            color: black;
+            background-color: var(--color-secundario);
+            color: var(--color-principal);
             cursor: pointer;
 
         }
     }
 
     h1 {
-        color: white;
+        color: var(--color-secundario);
         font-size: 2em;
         margin-top: 10px;
         font-weight: bold;
     }
 
     p {
-        color: white;
+        color: var(--color-secundario);
         width: 35%;
         font-size: 1.2em;
         margin-top: 20px;
